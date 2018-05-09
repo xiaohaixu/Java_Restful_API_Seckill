@@ -11,6 +11,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillExecution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/org/seckill/service/SeckillServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/seckill/service/SeckillServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,20 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SeckillDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/org/seckill/dao/SeckillDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="72" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -73,13 +66,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeckillServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/org/seckill/service/SeckillServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="265">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/org/seckill/web/SeckillController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeckillResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="74" />
+              <folding>
+                <element signature="e#988#1006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,36 +178,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding>
-                <element signature="e#777#793#0" expanded="true" />
-                <element signature="e#877#890#0" expanded="true" />
-                <element signature="e#930#944#0" expanded="true" />
-                <element signature="e#988#1006#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,17 +195,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/sql/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/seckill/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/seckill/dto/Exposer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/org/seckill/service/SeckillServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/org/seckill/web/SeckillController.java" />
       </list>
     </option>
   </component>
@@ -260,17 +290,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +306,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
@@ -627,14 +662,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525741029975</updated>
-      <workItem from="1525741035738" duration="11250000" />
+      <workItem from="1525741035738" duration="18408000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillDaoTest_queryAll - 2018.05.08 at 14h 28m 45s.xml">
-      <configuration name="SeckillDaoTest.queryAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeckillServiceTest_getSeckillList - 2018.05.09 at 11h 13m 41s.xml">
       <configuration name="SeckillServiceTest.getSeckillList" configurationId="JUnit" />
     </history-entry>
@@ -662,9 +694,12 @@
     <history-entry file="SeckillServiceTest_testSeckillLogic - 2018.05.09 at 12h 47m 26s.xml">
       <configuration name="SeckillServiceTest.testSeckillLogic" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeckillServiceTest_testSeckillLogic - 2018.05.09 at 12h 48m 14s.xml">
+      <configuration name="SeckillServiceTest.testSeckillLogic" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11250000" />
+    <option name="totallyTimeSpent" value="18408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="22" width="1267" height="712" extended-state="0" />
@@ -688,12 +723,12 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5188088" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0815047" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.3291536" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21783741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1507498" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -712,13 +747,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -776,19 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#777#793#0" expanded="true" />
-            <element signature="e#877#890#0" expanded="true" />
-            <element signature="e#930#944#0" expanded="true" />
-            <element signature="e#988#1006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -800,13 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -873,8 +881,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/org/seckill/service/SeckillServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="265">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="e#988#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="72" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/seckill/dto/SeckillResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/seckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
